@@ -1,0 +1,4449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot renders 1`] = `
+<div
+  className="container"
+>
+  <div
+    id="react-no-print"
+  >
+    <div
+      id="sidebar-menu"
+      style={
+        Object {
+          "marginTop": "72px",
+          "position": "fixed",
+          "width": "16%",
+        }
+      }
+    >
+      <nav
+        className="navbar navbar-inverse"
+        style={
+          Object {
+            "borderBottomLeftRadius": "25px",
+            "borderTopRightRadius": "25px",
+          }
+        }
+      >
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="navbar-header"
+          >
+            <a
+              className="navbar-brand"
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                }
+              }
+            >
+              Quick Link
+            </a>
+            <button
+              className="navbar-toggle collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="sr-only"
+              >
+                Toggle navigation
+              </span>
+              <span
+                className="icon-bar"
+              />
+              <span
+                className="icon-bar"
+              />
+              <span
+                className="icon-bar"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            bsstyle="padding-left: 0px;"
+            className="navbar-collapse collapse"
+          >
+            <ul
+              className="nav navbar-nav"
+              role={null}
+            >
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#personal_info"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Personal Info
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#qualification"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Qualification
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#work_experience"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Work Experience
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#project_detail"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Project Details
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#technical_skill"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Technical Skill
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#achievement"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Achivements
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "left": "25.3%",
+        "position": "relative",
+        "width": "68%",
+      }
+    }
+  >
+    <div>
+      <h3
+        className="text-center page-header"
+      >
+        Client Resume
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <span
+            className="glyphicon glyphicon-print pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "fontSize": "20px",
+              }
+            }
+          />
+        </div>
+      </h3>
+    </div>
+    <div
+      className="page-header"
+      id="personal_info"
+      name="personal_info"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <h3
+        style={
+          Object {
+            "color": "#375076",
+            "fontSize": "20px",
+          }
+        }
+      >
+        <span
+          className="glyphicon glyphicon-user"
+          style={
+            Object {
+              "fontSize": "20px",
+            }
+          }
+        />
+           Personal Info
+      </h3>
+      <ul
+        className="list-unstyled"
+        style={
+          Object {
+            "marginBottom": "12px",
+          }
+        }
+      >
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Name:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "display": "inline-block",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            Ravi Prakash Kesarwani
+          </b>
+          <div
+            className="pull-right"
+            id="react-no-print"
+          >
+            <span
+              className="glyphicon glyphicon-glyphicon glyphicon-pencil pull-right"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#0aa",
+                  "cursor": "Pointer",
+                  "fontSize": "15px",
+                  "fontWeight": "800",
+                  "marginRight": "5px",
+                }
+              }
+            />
+          </div>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              E-mail:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            ravibca199600@gmail.com
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Contact:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            +91-8543819032
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Date of Birth:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            14/10/1996
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Location:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            Allahabad
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Gender:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            Male
+          </b>
+        </li>
+      </ul>
+    </div>
+    <form
+      action="#"
+      className="form-horizontal"
+      id="personal_form"
+      method="post"
+      name="personal_form"
+    />
+    <div
+      className="page-header"
+      id="qualification"
+      name="qualification"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="glyphicon glyphicon-education"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Qualification
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Qualification
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Course Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                BCA
+              </b>
+              <div
+                className="pull-right"
+              >
+                <div
+                  className="pull-right"
+                  id="react-no-print"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="qualification_edit_1"
+                    name="qualification_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="qualification_delete_1"
+                    name="qualification_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Institue Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                M.G.K.V.P
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Year of Passing:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                2017
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Course Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                MCA
+              </b>
+              <div
+                className="pull-right"
+              >
+                <div
+                  className="pull-right"
+                  id="react-no-print"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="qualification_edit_2"
+                    name="qualification_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="qualification_delete_2"
+                    name="qualification_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Institue Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Integral University
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Year of Passing:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                2019
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="qualification_form"
+        method="post"
+        name="qualification_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="work_experience"
+      name="work_experience"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="glyphicon glyphicon-briefcase"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Work Experience
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Experience
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Organization:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                uCertify
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="exp_edit1"
+                    name="exp_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="exp_delete_1"
+                    name="exp_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Designation:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2017
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Department:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Organization:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                testing
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="exp_edit2"
+                    name="exp_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="exp_delete_2"
+                    name="exp_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Designation:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                TCS
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2018
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Department:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Test
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="experience_form"
+        method="post"
+        name="experience_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="project_detail"
+      name="project_detail"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="glyphicon glyphicon-send"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Project Details
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Project
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Project Title:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                uCertify
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="project_edit1"
+                    name="Project_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="project_delete_1"
+                    name="project_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Description:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2017
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Role:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Team Size:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Project Title:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                uCertify
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="project_edit2"
+                    name="Project_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="project_delete_2"
+                    name="project_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Description:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2017
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Role:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Team Size:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="project_form"
+        method="post"
+        name="project_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="technical_skill"
+      name="technical_skill"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="fas fa-code"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Technical Skills
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Skill
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Skill Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                React.js
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="skill_edit1"
+                    name="skill_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="skill_delete_1"
+                    name="skill_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Year:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                1
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Month:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                0
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Skill Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                PHP
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="skill_edit2"
+                    name="skill_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="skill_delete_2"
+                    name="skill_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Year:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                1
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Month:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                4
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="skill_form"
+        name="skill_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="achievement"
+      name="achievement"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="fas fa-trophy"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Achivements and Awards
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Achivement & Awards
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Achivement1
+                  :
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Testing
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="achivement_edit1"
+                    name="achivement_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="achivement_delete_1"
+                    name="achivement_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Achivement2
+                  :
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Test
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="achivement_edit2"
+                    name="achivement_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="achivement_delete_2"
+                    name="achivement_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="achivement_form"
+        name="achivement_form"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App Snapshot renders 2`] = `
+<div
+  className="container"
+>
+  <div
+    id="react-no-print"
+  >
+    <div
+      id="sidebar-menu"
+      style={
+        Object {
+          "marginTop": "72px",
+          "position": "fixed",
+          "width": "16%",
+        }
+      }
+    >
+      <nav
+        className="navbar navbar-inverse"
+        style={
+          Object {
+            "borderBottomLeftRadius": "25px",
+            "borderTopRightRadius": "25px",
+          }
+        }
+      >
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="navbar-header"
+          >
+            <a
+              className="navbar-brand"
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                }
+              }
+            >
+              Quick Link
+            </a>
+            <button
+              className="navbar-toggle collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="sr-only"
+              >
+                Toggle navigation
+              </span>
+              <span
+                className="icon-bar"
+              />
+              <span
+                className="icon-bar"
+              />
+              <span
+                className="icon-bar"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            bsstyle="padding-left: 0px;"
+            className="navbar-collapse collapse"
+          >
+            <ul
+              className="nav navbar-nav"
+              role={null}
+            >
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#personal_info"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Personal Info
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#qualification"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Qualification
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#work_experience"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Work Experience
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#project_detail"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Project Details
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#technical_skill"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Technical Skill
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+              >
+                <a
+                  href="#achievement"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Achivements
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "left": "25.3%",
+        "position": "relative",
+        "width": "68%",
+      }
+    }
+  >
+    <div>
+      <h3
+        className="text-center page-header"
+      >
+        Client Resume
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <span
+            className="glyphicon glyphicon-print pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+                "fontSize": "20px",
+              }
+            }
+          />
+        </div>
+      </h3>
+    </div>
+    <div
+      className="page-header"
+      id="personal_info"
+      name="personal_info"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <h3
+        style={
+          Object {
+            "color": "#375076",
+            "fontSize": "20px",
+          }
+        }
+      >
+        <span
+          className="glyphicon glyphicon-user"
+          style={
+            Object {
+              "fontSize": "20px",
+            }
+          }
+        />
+           Personal Info
+      </h3>
+      <ul
+        className="list-unstyled"
+        style={
+          Object {
+            "marginBottom": "12px",
+          }
+        }
+      >
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Name:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "display": "inline-block",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            Ravi Prakash Kesarwani
+          </b>
+          <div
+            className="pull-right"
+            id="react-no-print"
+          >
+            <span
+              className="glyphicon glyphicon-glyphicon glyphicon-pencil pull-right"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#0aa",
+                  "cursor": "Pointer",
+                  "fontSize": "15px",
+                  "fontWeight": "800",
+                  "marginRight": "5px",
+                }
+              }
+            />
+          </div>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              E-mail:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            ravibca199600@gmail.com
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Contact:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            +91-8543819032
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Date of Birth:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            14/10/1996
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Location:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            Allahabad
+          </b>
+        </li>
+        <li>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "25%",
+              }
+            }
+          >
+            <b>
+              Gender:
+            </b>
+          </div>
+          <b
+            style={
+              Object {
+                "color": "#555",
+                "fontFamily": "monospace",
+              }
+            }
+          >
+            Male
+          </b>
+        </li>
+      </ul>
+    </div>
+    <form
+      action="#"
+      className="form-horizontal"
+      id="personal_form"
+      method="post"
+      name="personal_form"
+    />
+    <div
+      className="page-header"
+      id="qualification"
+      name="qualification"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="glyphicon glyphicon-education"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Qualification
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Qualification
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Course Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                BCA
+              </b>
+              <div
+                className="pull-right"
+              >
+                <div
+                  className="pull-right"
+                  id="react-no-print"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="qualification_edit_1"
+                    name="qualification_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="qualification_delete_1"
+                    name="qualification_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Institue Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                M.G.K.V.P
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Year of Passing:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                2017
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Course Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                MCA
+              </b>
+              <div
+                className="pull-right"
+              >
+                <div
+                  className="pull-right"
+                  id="react-no-print"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="qualification_edit_2"
+                    name="qualification_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="qualification_delete_2"
+                    name="qualification_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Institue Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Integral University
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Year of Passing:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                2019
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="qualification_form"
+        method="post"
+        name="qualification_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="work_experience"
+      name="work_experience"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="glyphicon glyphicon-briefcase"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Work Experience
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Experience
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Organization:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                uCertify
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="exp_edit1"
+                    name="exp_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="exp_delete_1"
+                    name="exp_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Designation:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2017
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Department:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Organization:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                testing
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="exp_edit2"
+                    name="exp_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="exp_delete_2"
+                    name="exp_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Designation:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                TCS
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2018
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Department:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Test
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="experience_form"
+        method="post"
+        name="experience_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="project_detail"
+      name="project_detail"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="glyphicon glyphicon-send"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Project Details
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Project
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Project Title:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                uCertify
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="project_edit1"
+                    name="Project_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="project_delete_1"
+                    name="project_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Description:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2017
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Role:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Team Size:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Project Title:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                uCertify
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="project_edit2"
+                    name="Project_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="project_delete_2"
+                    name="project_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Description:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  From Date:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                January 2017
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  To:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Present
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Role:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Team Size:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Apps Developer
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="project_form"
+        method="post"
+        name="project_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="technical_skill"
+      name="technical_skill"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="fas fa-code"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Technical Skills
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Skill
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Skill Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                React.js
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="skill_edit1"
+                    name="skill_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="skill_delete_1"
+                    name="skill_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Year:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                1
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Month:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                0
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Skill Name:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                PHP
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="skill_edit2"
+                    name="skill_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="skill_delete_2"
+                    name="skill_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Year:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                1
+              </b>
+            </li>
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Experience Month:
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                4
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="skill_form"
+        name="skill_form"
+      />
+    </div>
+    <div
+      className="page-header"
+      id="achievement"
+      name="achievement"
+      style={
+        Object {
+          "marginTop": "20px",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h3
+          className="pull-left"
+          style={
+            Object {
+              "color": "#375076",
+              "display": "contents",
+              "fontSize": "20px",
+            }
+          }
+        >
+          <span
+            className="fas fa-trophy"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+             Achivements and Awards
+        </h3>
+        <div
+          className="pull-right"
+          id="react-no-print"
+        >
+          <p
+            className="pull-right"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "Pointer",
+                "marginBottom": "0px",
+                "marginTop": "4px",
+              }
+            }
+          >
+            <a
+              href=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#2c84cc",
+                  "outline": "none",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Add Achivement & Awards
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Achivement1
+                  :
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Testing
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="achivement_edit1"
+                    name="achivement_edit1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="achivement_delete_1"
+                    name="achivement_delete_1"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <ul
+            className="list-unstyled"
+            style={
+              Object {
+                "marginBottom": "12px",
+              }
+            }
+          >
+            <li>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "25%",
+                  }
+                }
+              >
+                <b>
+                  Achivement2
+                  :
+                </b>
+              </div>
+              <b
+                style={
+                  Object {
+                    "color": "#555",
+                    "display": "inline-block",
+                    "fontFamily": "monospace",
+                  }
+                }
+              >
+                Test
+              </b>
+              <div
+                className="pull-right"
+                id="react-no-print"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-pencil"
+                    id="achivement_edit2"
+                    name="achivement_edit2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#0aa",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "800",
+                        "marginRight": "5px",
+                      }
+                    }
+                  />
+                  <span
+                    className="glyphicon glyphicon-glyphicon glyphicon-trash"
+                    id="achivement_delete_2"
+                    name="achivement_delete_2"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#B0281A",
+                        "cursor": "Pointer",
+                        "fontSize": "15px",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form
+        className="form-horizontal"
+        id="achivement_form"
+        name="achivement_form"
+      />
+    </div>
+  </div>
+</div>
+`;
