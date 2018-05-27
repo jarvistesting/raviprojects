@@ -19,13 +19,3 @@ describe('Sidebar Component',()=> {
         expect(component).toHaveLength(1);
     });
 });
-
-describe('App Snapshot', () => {
-  test('renders', () => {
-    const component = renderer.create(
-      <ClientResume />
-    );
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
