@@ -37,7 +37,7 @@ export default class ClientResume extends React.Component {
 		this.handleSelect = this.handleSelect.bind(this);
 		this.handleShow = this.handleShow.bind(this);
 		this.handleSavePersonal = this.handleSavePersonal.bind(this);
-    
+
 		this.state = {
 			activeKey: '0',
 			isVisible: false,
@@ -50,14 +50,17 @@ export default class ClientResume extends React.Component {
 			scrollingLock: false,
 			myObj:[{
 				personal_info:{"name":"Ravi Prakash Kesarwani","email":"ravibca199600@gmail.com","phone":"+91-8543819032","dob":"14/10/1996","location":"Allahabad","gender":"Male"},
-				qualification:[{"education":"BCA","institue_name":"M.G.K.V.P","year_of_passing":"2017"},{"education":"MCA","institue_name":"Integral University","year_of_passing":"2019"}],
+				qualification:[{"education":"BCA","institue_name":"M.G.K.V.P","year_of_passing":"2017"},{"education":"MCA","institue_name":"Integral University","year_of_passing":"2018"}],
 				experience:[{"organization":"uCertify","designation":"Apps Developer","exp_from":"January 2017","exp_to":"Present","exp_department":"Apps Developer"},{"organization":"testing","designation":"TCS","exp_from":"January 2018","exp_to":"Present","exp_department":"Test"}],
 				project:[{"project_title":"uCertify","project_description":"Apps Developer","project_from":"January 2017","project_to":"Present","project_role":"Apps Developer","project_team":"Apps Developer"},{"project_title":"uCertify","project_description":"Apps Developer","project_from":"January 2017","project_to":"Present","project_role":"Apps Developer","project_team":"Apps Developer"}],
 				skill:[{"skill_name":"React.js","exp_year":"1","exp_month":"0"},{"skill_name":"PHP","exp_year":"1","exp_month":"4"}],
 				achivement:[{"achivement_name":"Testing"},{"achivement_name":"Test"}]
-			}]
+			}],
+			yop_arr : [
+				"2018","2017","2016","2015","2014","2013","2012","2011","2010","2009","2008","2007","2006","2005","2004","2003","2002"
+			]
 		};
-  }
+  	}
 
 	handleSelect(activeKey) {
 		this.setState({ activeKey });
@@ -214,63 +217,63 @@ export default class ClientResume extends React.Component {
 		});
 	}
 	
-  handleShow() {
+	handleShow() {
 		this.handleModalEdit("show");
-  }
+	}
   
-  handleQualClick(index,e) {
+	handleQualClick(index,e) {
 		this.curIndex = index;
 		this.handleModalEdit("showqual");
-  }
+	}
   
-  handleExpClick(index,e) {
+	handleExpClick(index,e) {
 		this.curExp = index;
 		this.handleModalEdit("showexp");  
-  }
+	}
   
   handleProjectClick(index,e) {
-		this.curProject = index;	
-		this.handleModalEdit("showproject"); 
+	this.curProject = index;	
+	this.handleModalEdit("showproject"); 
   }
   
   handleSkillClick(index,e) {
-		this.curSkill = index;
-		this.handleModalEdit("showskill"); 
+	this.curSkill = index;
+	this.handleModalEdit("showskill"); 
   }
   
   handleAchivementClick(index,e) {
-		this.curAchivement = index;
-		this.handleModalEdit("showachivement"); 
+	this.curAchivement = index;
+	this.handleModalEdit("showachivement"); 
   }
   
   handleModaldelete (of_which, index) {
-		let objcopy = this.state.myObj;
-		objcopy[0][of_which] = objcopy[0][of_which].filter(function(person, ind) { 
-			return ind !== index;
-		})
-		this.setState({
-			myObj: objcopy
-		});	
-	}
+	let objcopy = this.state.myObj;
+	objcopy[0][of_which] = objcopy[0][of_which].filter(function(person, ind) { 
+		return ind !== index;
+	})
+	this.setState({
+		myObj : objcopy
+	});	
+  }
 	
-	handleQualDelete(index, e) {	
-		this.curIndex = null;
-		this.handleModaldelete("qualification",index);
-	}
+  handleQualDelete(index, e) {	
+	this.curIndex = null;
+	this.handleModaldelete("qualification",index);
+  }
   
-	handleExpDelete(index, e) {
-		this.curExp = null;
-		this.handleModaldelete("experience",index);
-	}
+  handleExpDelete(index, e) {
+	this.curExp = null;
+	this.handleModaldelete("experience",index);
+  }
   
   handleProjectDelete(index, e) {
-	  this.curProject = null;
-	  this.handleModaldelete("project",index);
+	this.curProject = null;
+	this.handleModaldelete("project",index);
   }
   
   handleSkillDelete(index, e) {
-	  this.curSkill = null;
-	  this.handleModaldelete("skill", index);
+	this.curSkill = null;
+	this.handleModaldelete("skill", index);
   }
   
   handleAchivementDelete(index, e) {
@@ -321,102 +324,102 @@ export default class ClientResume extends React.Component {
 		const renderQualificationList = () => {
 			return this.state.myObj[0]['qualification'].map((number,index) => {
 				return (
-						<div key={"qualification_container_"+(index+1)}>
-							<div>
-								<ul className="list-unstyled" style={{"marginBottom": "12px"}}>
-									<li key={"qualification_key_"+(index+1)}>
-										<div style={{"width": "25%","display": "inline-block"}}>
-												<b>Course Name:</b>
+					<div key={"qualification_container_"+(index+1)}>
+						<div>
+							<ul className="list-unstyled" style={{"marginBottom": "12px"}}>
+								<li key={"qualification_key_"+(index+1)}>
+									<div style={{"width": "25%","display": "inline-block"}}>
+										<b>Course Name:</b>
+									</div>
+									<b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['education']}</b>
+									<div className="pull-right">
+										<div id="react-no-print" className="pull-right">
+											<Glyphicon glyph="glyphicon glyphicon-pencil" style={{"fontSize" : "15px","marginRight": "5px","cursor":"Pointer","color": "#0aa","fontWeight": "800"}} id={"qualification_edit_"+(index+1)} name={"qualification_edit"+(index+1)} onClick={this.handleQualClick.bind(this,index)}/>
+											<Glyphicon glyph="glyphicon glyphicon-trash" style={{"fontSize" : "15px","cursor":"Pointer","color":"#B0281A"}} name={"qualification_delete_"+(index+1)} id={"qualification_delete_"+(index+1)} onClick={this.handleQualDelete.bind(this,index)}/>
 										</div>
-										<b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['education']}</b>
-										<div className="pull-right">
-											<div id="react-no-print" className="pull-right">
-												<Glyphicon glyph="glyphicon glyphicon-pencil" style={{"fontSize" : "15px","marginRight": "5px","cursor":"Pointer","color": "#0aa","fontWeight": "800"}} id={"qualification_edit_"+(index+1)} name={"qualification_edit"+(index+1)} onClick={this.handleQualClick.bind(this,index)}/>
-												<Glyphicon glyph="glyphicon glyphicon-trash" style={{"fontSize" : "15px","cursor":"Pointer","color":"#B0281A"}} name={"qualification_delete_"+(index+1)} id={"qualification_delete_"+(index+1)} onClick={this.handleQualDelete.bind(this,index)}/>
-											</div>
-										</div>
-									</li>
-									<li key={"institue_key_"+(index+1)}>
-										<div style={{"width": "25%","display": "inline-block"}}><b>Institue Name:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['institue_name']}</b>
-									</li>
-									<li key={"yop_key_"+(index+1)}>
-										<div style={{"width": "25%","display": "inline-block"}}><b>Year of Passing:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['year_of_passing']}</b>
-									</li>
-								</ul>
-							</div>
+									</div>
+								</li>
+								<li key={"institue_key_"+(index+1)}>
+									<div style={{"width": "25%","display": "inline-block"}}><b>Institue Name:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['institue_name']}</b>
+								</li>
+								<li key={"yop_key_"+(index+1)}>
+									<div style={{"width": "25%","display": "inline-block"}}><b>Year of Passing:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['year_of_passing']}</b>
+								</li>
+							</ul>
 						</div>
-					);	
+					</div>
+				);	
 			});
 	 };
 	 
 	 const renderExperienceList = () => {
 		return this.state.myObj[0]['experience'].map((number,index) => {
-				  return (
-					<div key={"exp_container_"+(index+1)}>
-						<div>
-							<ul className="list-unstyled" style={{"marginBottom": "12px"}}>
-								<li key={"organization_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>Organization:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['organization']}</b>
-									<div id="react-no-print" className="pull-right">
-										<div className="pull-right">
-											<Glyphicon glyph="glyphicon glyphicon-pencil" style={{"fontSize" : "15px","marginRight": "5px","cursor":"Pointer","color": "#0aa","fontWeight": "800"}} id={"exp_edit"+(index+1)} name={"exp_edit"+(index+1)} onClick={this.handleExpClick.bind(this,index)}/>
-											<Glyphicon glyph="glyphicon glyphicon-trash" style={{"fontSize" : "15px","cursor":"Pointer","color":"#B0281A"}} name={"exp_delete_"+(index+1)} id={"exp_delete_"+(index+1)} onClick={this.handleExpDelete.bind(this,index)}/>
-										</div>
+			return (
+				<div key={"exp_container_"+(index+1)}>
+					<div>
+						<ul className="list-unstyled" style={{"marginBottom": "12px"}}>
+							<li key={"organization_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>Organization:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['organization']}</b>
+								<div id="react-no-print" className="pull-right">
+									<div className="pull-right">
+										<Glyphicon glyph="glyphicon glyphicon-pencil" style={{"fontSize" : "15px","marginRight": "5px","cursor":"Pointer","color": "#0aa","fontWeight": "800"}} id={"exp_edit"+(index+1)} name={"exp_edit"+(index+1)} onClick={this.handleExpClick.bind(this,index)}/>
+										<Glyphicon glyph="glyphicon glyphicon-trash" style={{"fontSize" : "15px","cursor":"Pointer","color":"#B0281A"}} name={"exp_delete_"+(index+1)} id={"exp_delete_"+(index+1)} onClick={this.handleExpDelete.bind(this,index)}/>
 									</div>
-								</li>
-								<li key={"designation_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>Designation:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['designation']}</b>
-								</li>
-								<li key={"from_date_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>From Date:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['exp_from']}</b>
-								</li>
-								<li key={"to_date_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>To:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['exp_to']}</b>
-								</li>
-								<li key={"department_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>Department:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['exp_department']}</b>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+							<li key={"designation_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>Designation:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['designation']}</b>
+							</li>
+							<li key={"from_date_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>From Date:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['exp_from']}</b>
+							</li>
+							<li key={"to_date_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>To:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['exp_to']}</b>
+							</li>
+							<li key={"department_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>Department:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['exp_department']}</b>
+							</li>
+						</ul>
 					</div>
-				);	
+				</div>
+			);	
 		});
 	 };
 	 
 	 const renderProjectList = () => {
-		return this.state.myObj[0]['project'].map((number,index) => {
-				  return (
-					<div key={"project_container_"+(index+1)}>
-						<div>
-							<ul className="list-unstyled" style={{"marginBottom": "12px"}}>
-								<li key={"project_title_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>Project Title:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_title']}</b>
-									<div id="react-no-print" className="pull-right">
-										<div className="pull-right">
-											<Glyphicon glyph="glyphicon glyphicon-pencil" style={{"fontSize" : "15px","marginRight": "5px","cursor":"Pointer","color": "#0aa","fontWeight": "800"}} id={"project_edit"+(index+1)} name={"Project_edit"+(index+1)} onClick={this.handleProjectClick.bind(this,index)}/>
-											<Glyphicon glyph="glyphicon glyphicon-trash" style={{"fontSize" : "15px","cursor":"Pointer","color":"#B0281A"}} name={"project_delete_"+(index+1)} id={"project_delete_"+(index+1)} onClick={this.handleProjectDelete.bind(this,index)}/>
-										</div>
+		return this.state.myObj[0]['project'].map((number, index) => {
+			return (
+				<div key={"project_container_"+(index+1)}>
+					<div>
+						<ul className="list-unstyled" style={{"marginBottom": "12px"}}>
+							<li key={"project_title_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>Project Title:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_title']}</b>
+								<div id="react-no-print" className="pull-right">
+									<div className="pull-right">
+										<Glyphicon glyph="glyphicon glyphicon-pencil" style={{"fontSize" : "15px","marginRight": "5px","cursor":"Pointer","color": "#0aa","fontWeight": "800"}} id={"project_edit"+(index+1)} name={"Project_edit"+(index+1)} onClick={this.handleProjectClick.bind(this,index)}/>
+										<Glyphicon glyph="glyphicon glyphicon-trash" style={{"fontSize" : "15px","cursor":"Pointer","color":"#B0281A"}} name={"project_delete_"+(index+1)} id={"project_delete_"+(index+1)} onClick={this.handleProjectDelete.bind(this,index)}/>
 									</div>
-								</li>
-								<li key={"project_description_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>Description:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_description']}</b>
-								</li>
-								<li key={"project_f_date_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>From Date:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_from']}</b>
-								</li>
-								<li key={"project_to_date_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>To:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_to']}</b>
-								</li>
-								<li key={"project_role_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>Role:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_role']}</b>
-								</li>
-								<li key={"project_team_key_"+(index+1)}>
-									<div style={{"width": "25%","display": "inline-block"}}><b>Team Size:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_team']}</b>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+							<li key={"project_description_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>Description:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_description']}</b>
+							</li>
+							<li key={"project_f_date_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>From Date:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_from']}</b>
+							</li>
+							<li key={"project_to_date_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>To:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_to']}</b>
+							</li>
+							<li key={"project_role_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>Role:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_role']}</b>
+							</li>
+							<li key={"project_team_key_"+(index+1)}>
+								<div style={{"width": "25%","display": "inline-block"}}><b>Team Size:</b></div><b style={{"display":'inline-block',"color":  "#555","fontFamily": "monospace"}}>{number['project_team']}</b>
+							</li>
+						</ul>
 					</div>
-				);	
+				</div>
+			);	
 		});
 	 };
 	 
@@ -548,7 +551,12 @@ export default class ClientResume extends React.Component {
 										<label className = "control-label" htmlFor = "qualification_institute">Institue Name:<sup style = {{color:'red'}}>* </sup></label>
 										<input type = "text" className = "form-control" id="qualification_institute" name="qualification_institute" placeholder = "Institue"  required = "required" defaultValue={this.curIndex == null ? '' : this.state.myObj[0]['qualification'][this.curIndex]['institue_name']} />
 										<label className = "control-label" htmlFor = "qualification_yop">Year Of Passing:<sup style = {{color:'red'}}>* </sup></label>
-										<input type = "text" className = "form-control" id="qualification_yop" name="qualification_yop" placeholder = "Year of Passing"  required = "required" defaultValue={this.curIndex == null ? '' : this.state.myObj[0]['qualification'][this.curIndex]['year_of_passing']}/>
+										<select name="qualification_yop" id="qualification_yop" className = "form-control" defaultValue={this.curIndex == null ? '' : this.state.myObj[0]['qualification'][this.curIndex]['year_of_passing']}>
+											<option key="0" value="">Select Passing out Year</option>
+											{this.state.yop_arr.map((data,index) =>
+												<option key={"yop"+index} value={data}>{data}</option>
+											)};
+										</select>
 									</Modal.Body>
 									<Modal.Footer>
 										<Button type="submit" bsClass="btn btn-info" onClick={this.handleSaveQual.bind(this)}>Save</Button>
