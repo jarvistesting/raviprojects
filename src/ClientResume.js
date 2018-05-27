@@ -51,8 +51,8 @@ export default class ClientResume extends React.Component {
 			myObj:[{
 				personal_info:{"name":"Ravi Prakash Kesarwani","email":"ravibca199600@gmail.com","phone":"+91-8543819032","dob":"14/10/1996","location":"Allahabad","gender":"Male"},
 				qualification:[{"education":"BCA","institue_name":"M.G.K.V.P","year_of_passing":"2017"},{"education":"MCA","institue_name":"Integral University","year_of_passing":"2018"}],
-				experience:[{"organization":"uCertify","designation":"Apps Developer","exp_from":"January 2017","exp_to":"Present","exp_department":"Apps Developer"},{"organization":"testing","designation":"TCS","exp_from":"January 2018","exp_to":"Present","exp_department":"Test"}],
-				project:[{"project_title":"uCertify","project_description":"Apps Developer","project_from":"January 2017","project_to":"Present","project_role":"Apps Developer","project_team":"Apps Developer"},{"project_title":"uCertify","project_description":"Apps Developer","project_from":"January 2017","project_to":"Present","project_role":"Apps Developer","project_team":"Apps Developer"}],
+				experience:[{"organization":"uCertify","designation":"Apps Developer","exp_from":"January 2017","exp_to":"Present","exp_department":"testing"},{"organization":"testing","designation":"TCS","exp_from":"January 2018","exp_to":"Present","exp_department":"Test"}],
+				project:[{"project_title":"uCertify","project_description":"Apps Developer","project_from":"January 2017","project_to":"Present","project_role":"Apps Developer","project_team":"8"},{"project_title":"uCertify","project_description":"Apps Developer","project_from":"January 2017","project_to":"Present","project_role":"Apps Developer","project_team":"6"}],
 				skill:[{"skill_name":"React.js","exp_year":"1","exp_month":"0"},{"skill_name":"PHP","exp_year":"1","exp_month":"4"}],
 				achivement:[{"achivement_name":"Testing"},{"achivement_name":"Test"}]
 			}],
